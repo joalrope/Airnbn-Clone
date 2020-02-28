@@ -5,9 +5,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="airbnbstyles.css">
+
+    <script type="text/javascript">
+        window.onscroll = function() {
+            var mc = document.getElementById('backg').style;
+            var mi1 = document.getElementById('mi1').style;
+            var mi2 = document.getElementById('mi2').style;
+            var mi3 = document.getElementById('mi3').style;
+            var mi4 = document.getElementById('mi4').style;
+            var mi5 = document.getElementById('mi5').style;
+            var mi6 = document.getElementById('mi6').style;
+            var mi7 = document.getElementById('mi7').style;
+            var mi8 = document.getElementById('mi8').style;
+            // var cl = document.getElementsByClassName('menu-item').style
+            if (window.scrollY > 50) {
+                mi1.color = '#484848';
+                mi2.color = '#484848';
+                mi3.color = '#484848';
+                mi4.color = '#484848';
+                mi5.color = '#484848';
+                mi6.color = '#484848';
+                mi7.color = '#484848';
+                mi8.color = '#484848';
+                mc.backgroundColor = '#fff';
+            } else {
+                mi1.color = '#fff';
+                mi2.color = '#fff';
+                mi3.color = '#fff';
+                mi4.color = '#fff';
+                mi5.color = '#fff';
+                mi6.color = '#fff';
+                mi7.color = '#fff';
+                mi8.color = '#fff';
+                mc.backgroundColor = 'transparent';
+            }
+        }
+    </script>
+
 </head>
 
 <body>
+
+    <!-- Navigation Bar -->
+    <header>
+
+        <nav class="navBar">
+            <ul id="backg" class="menu-container">
+
+
+                <li class="menu-item menu-icon"><a id="mi1" href="#">.</a> </li>
+                <li class="menu-item menu-title"><a id="mi2" href="#">Airbnb</a> </li>
+                <li class="menu-item"><a id="mi3" href="#">.</a> </li>
+                <!-- <nav class="sub-menu">
+                    <ul class="menu-container">
+                        <li class="menu-item"><a>ENGLISH</a></li>
+                        <li class="menu-item"><a>$</a></li>
+                    </ul>
+                </nav> -->
+                <li class="menu-item"><a id="mi4" href="#">Host an experience</a></li>
+                <li class="menu-item"><a id="mi5" href="#">Host your home</a></li>
+                <li class="menu-item"><a id="mi6" href="#">Help</a></li>
+                <li class="menu-item"><a id="mi7" href="#">Log in</a></li>
+                <li class="menu-item"><a id="mi8" href="#">Sign up</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+    <!-- Welcome Screen -->
+    <div class="welcome-screen">
+
+    </div>
+
+
+    <!-- Global search form -->
+    <div class="search-form">
+
+    </div>
+
+
+    <!-- Explore by type -->
+    <div class="explore">
+        <p>Explore Airbnb</p>
+    </div>
+
+
+    <!--  Places Plus -->
+    <div class="places">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni ullam sunt velit placeat ea id minima! Nulla nostrum eveniet tempore, odio eius voluptatem qui quod accusantium cumque sequi libero. Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Repellat vero tenetur similique architecto natus nulla aliquam laboriosam impedit voluptates beatae, dolore odit voluptatem iste nostrum, quos fugit accusamus tempora deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore,
+        culpa minus! Quae consequuntur, maxime culpa et itaque sint voluptatibus, animi esse, dolorum ducimus rem quidem ut praesentium repellendus labore porro!
+
+    </div>
+
+
+    <!-- Introducing adventures -->
+    <div class="adventures">
+
+    </div>
+
+
+    <!-- Best places -->
+    <div class="best-places">
+
+    </div>
+
+
+    <!-- Top-rated experiences -->
+    <div class="experiences">
+
+    </div>
+
+
+    <!-- Popular destinations in -->
+    <div class="destination">
+
+    </div>
+
+    <!-- Start Code for footer -->
+    <footer>
+
+    </footer>
 
 </body>
 
