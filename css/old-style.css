@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+    background-color: #fff;
+}
+
+
+/* Welcome Screen Code */
+
+.w-scr img {
+    /* background-image: url(./images/w-scr.jpg); */
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.w-scr .menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-scr .menu .left-div img {
+    width: 150px;
+    margin: 12px;
+    text-align: center;
+}
+
+.w-scr .menu .right-div {
+    display: flex;
+    align-items: center;
+}
+
+.w-scr .menu .right-div div a {
+    padding: 8px 25px;
+    background: rgb(255, 255, 255);
+    color: rgb(109, 105, 105);
+    margin-right: 30px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.w-scr .menu .right-div div a:hover {
+    opacity: 0.8;
+}
+
+.w-scr .menu .right-div nav {
+    padding: 20px;
+}
+
+.w-scr .menu .right-div nav a {
+    margin-left: 16px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.w-scr .menu .right-div nav a:hover {
+    border-bottom: #fff solid 2px;
+}
